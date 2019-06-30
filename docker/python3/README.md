@@ -15,7 +15,7 @@ docker images
 docker run -i -v /private/var/shared_data:/var/shared_data -t datapython /bin/bash  
 ```
   
-   -v option can specify the shared directory (usage: -v <local directory>:<docker directory>)  
+   -v option can specify the shared directory (usage: `-v <local directory>:<docker directory>`)  
 
 3. confirm the shared directory at the image
 
