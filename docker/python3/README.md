@@ -1,7 +1,7 @@
 Command for python3 settings
 ------------------------------------------
 
-1. Add the Dockerfile and the requirements.txt in in a created directory (./python3) .
+1. Add the Dockerfile and the requirements.txt in a created directory (./python3) .
 
 ```
 mkdir ./python3
