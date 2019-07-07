@@ -33,6 +33,7 @@ scikit-learnの木構造可視化のために利用する
 
 ```
 $ brew install graphviz
+$ pip install pydotplus
 ```
 
 #### matplotlib
