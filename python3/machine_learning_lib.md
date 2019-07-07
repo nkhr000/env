@@ -28,6 +28,13 @@ $ pip install scipy
 $ pip install scikit-learn
 ```
 
+#### graphviz
+scikit-learnの木構造可視化のために利用する
+
+```
+$ brew install graphviz
+```
+
 #### matplotlib
 
 ```
