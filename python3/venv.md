@@ -1,4 +1,4 @@
-python3では、仮想環境を作成するvenvが利用できる。
+python3では、仮想環境を作成するための「venv」が利用できる。
 
 ```
 $ python -m venv workspace
