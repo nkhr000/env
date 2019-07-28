@@ -1,7 +1,8 @@
 
 - install
 ```
-$ brew install gcc g++
+$ brew install gcc 
+$ brew install g++
 ```
 
 - confirm gcc/g++
