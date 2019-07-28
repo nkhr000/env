@@ -1,6 +1,6 @@
 ### For mac 
  
-macにインストールしたvirtual stadio codeのパスを通し、`code`コマンドを使えるようにする
+macにインストールしたvisual stadio codeのパスを通し、`code`コマンドを使えるようにする
  
 ```
 $ ls /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code
