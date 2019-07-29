@@ -42,7 +42,7 @@ $ pip install pydotplus
 $ pip install matplotlib
 
 <軸に日本語を利用する場合の設定: フォントの変更>
-$ vim <利用するpythonのディレクトリ>/lib/python3.6/site-packages/matplotlib/mpl-data
+$ vim <利用するpythonのディレクトリ>/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc
 
 （変更前）　#font.family         : sans-serif
 （変更後）　font.family         : IPAexGothic
