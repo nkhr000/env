@@ -34,4 +34,4 @@ $ code .
 
 - pythonプラグインのインストール
 - PEP8インストール `pip install pep8`
-- 
+- Pylintインストール　`pip install pylint`
