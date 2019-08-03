@@ -36,7 +36,7 @@ $ code .
 - pythonプラグインのインストール
 - PEP8インストール `pip install pep8`
 - Pylintインストール　`pip install pylint`
-- Linting設定
+- Linting設定 (https://code.visualstudio.com/docs/python/linting)
   - コマンドパレット表示（shift+command+p)
   - `Python: Select Linter`を選択
   - `pylint`を選択
