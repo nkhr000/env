@@ -18,6 +18,7 @@ $ cd workdir
 $ code .
 ```
 
+- コマンドパレットの表示： `shift + command + P`
 
 ### C++実行
 
@@ -35,3 +36,8 @@ $ code .
 - pythonプラグインのインストール
 - PEP8インストール `pip install pep8`
 - Pylintインストール　`pip install pylint`
+- Linting設定
+  - コマンドパレット表示（shift+command+p)
+  - `Python: Select Linter`を選択
+  - `pylint`を選択
+  - `settings.json`ファイルが.vscodeフォルダ配下に作成される
