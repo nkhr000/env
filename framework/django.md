@@ -2,4 +2,5 @@
 
 ```
 $ django-admin startproject <project-directory-name>
+$ python manage.py runserver
 ```
