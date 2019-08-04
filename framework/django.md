@@ -13,3 +13,9 @@ $ django-admin startproject <project-directory-name>
 $ python manage.py runserver
 $ python manage.py startapp <app-name>
 ```
+
+### migration 
+
+```
+$ python manage.py makemigrations <app-name>
+```
