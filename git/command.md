@@ -24,4 +24,10 @@ $ git add <file-name/directory/.>
 
 ### 管理ファイルをリポジトリーに追加
 $ git commit -m <commit-comments>
+
+### 差分確認
+$ git diff
+
+### コミット前の変更を削除
+$ git checkout <file-name/directory/.>
 ```
