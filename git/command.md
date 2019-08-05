@@ -13,3 +13,15 @@ $ git config --global user.email "user@email.com"
 ```
 $ git init
 ```
+
+### ファイル操作
+
+```
+$ git status
+
+### ファイルをgit管理に追加
+$ git add <file-name/directory/.>
+
+### 管理ファイルをリポジトリーに追加
+$ git commit -m <commit-comments>
+```
