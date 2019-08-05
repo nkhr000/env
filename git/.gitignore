@@ -1,0 +1,10 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverridetore
+
+# vs code
+.vscode
+
+# inteliJ
+.idea
