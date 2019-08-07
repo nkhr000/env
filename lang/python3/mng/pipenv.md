@@ -13,13 +13,15 @@ $ brew install pipenv
 $ pipx install pyenv
 ```
 
-### install package by pipenv
+### package management by pipenv
   
-pipenvでパッケージをインストールするとディレクトリ配下に`Pipfile`が生成される。　
-このファイルによって、環境ごとのパッケージ管理を行う。
+- pipenvでパッケージをインストールするとディレクトリ配下に`Pipfile`が生成される。　
+- このファイルによって、環境ごとのパッケージ管理を行う。
+ 
+#### install  
 
 ```
-$ pipenv install black isort --dev
+$ pipenv install flake8 --dev
 
 $ cat Pipfile
   [[source]]
@@ -28,12 +30,34 @@ $ cat Pipfile
   verify_ssl = true
   
   [dev-packages]
-  black = "*"
-  isort = "*"
+  flake8 = "*"
   
  [packages]
  
  [requires]
  python_version = "3.7"
+```  
+※ `--dev`をつけると`[dev-packages]`にバージョンが定義される。`[[source]]`は複数指定（自分で追記）することができる。
+
+#### create setup.cfg
+
+- インストールパッケージの設定は`setup.cfg`に記載する
+- 例） flake8の設定例：　設定がない場合は記載する必要はない。
+
 ```
+$ vim setup.cfg
+
+[flake8]
+ignore = E203, E266, E501, W503
+max-line-length = 100
+max-complexity = 20
+select = B,C,E,F,W,T4
+```
+
+#### run package
+
+```
+$ pipenv run flake8
+```
+
 
