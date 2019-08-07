@@ -13,6 +13,5 @@ elseif has('win32')
   set termencoding=
 endif
 syntax on
-filetype plugin indent on 
 set number
 set ts=4
