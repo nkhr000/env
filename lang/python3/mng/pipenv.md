@@ -56,8 +56,15 @@ select = B,C,E,F,W,T4
 
 #### run package
 
+- プロジェクト内でパッケージを実行する場合は`run`コマンドを利用する
+
 ```
 $ pipenv run flake8
 ```
 
+#### activate virtualenv
+
+```
+$ pipenv shell
+```
 
