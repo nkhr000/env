@@ -119,3 +119,10 @@ docker run --volumes-from [volume-container-name] -v [host-os-dir]:/backup [imag
 -- restore container
 docker run --volumes-from [volume-container-name] -v [host-os-dir]:/backup [image-name] tar xvf /backup/container-bkup.tar -C [backup-parent-dir]
 ```
+
+### log
+
+```
+docker logs [container-id]
+* Exited(0)以外で異常終了(100など)した場合に、ログを確認できる
+```
