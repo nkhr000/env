@@ -98,6 +98,9 @@ docker volume create --name=[volume-name]
 docker volume ls
 docker volume rm [volume-name]
 docker volume prune 
+
+* データボリュームのhost-os上の保存先を見る場合
+docker inspect [volume-name]
 ```
 
 ### data volume container
@@ -112,4 +115,7 @@ docker run --name=[container-name] -v [volume-name]:[mount-point-directory] [ima
 ```
 -- backup container
 docker run --volumes-from [volume-container-name] -v [host-os-dir]:/backup [image-name] tar cvf /backup/container-bkup.tar -C [backup-parent-dir] [backup-dir-name] 
+
+-- restore container
+docker run --volumes-from [volume-container-name] -v [host-os-dir]:/backup [image-name] tar xvf /backup/container-bkup.tar -C [backup-parent-dir]
 ```
