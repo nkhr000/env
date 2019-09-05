@@ -45,6 +45,11 @@ services:
     # docker runの-vに相当、ボリュームコンテナ生成
     volumes:
       - [volume-name]:[path-to-container]
+  
+  # Dockerfileからコンテナを作成する場合
+  container-from-docierfile:
+    # Dockerfileを保存しているディレクトリまでのパスを記載
+    build: ./dir-in-dockerfile
 
 # データボリュームの作成
 volumes:
