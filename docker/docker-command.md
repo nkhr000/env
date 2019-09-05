@@ -83,6 +83,10 @@ docker start -ai $(docker ps -lq)
 ```
 
 - docker attach <container-id>
+  
+### stop
+
+- docker stop <container-id>
 
 ### save
 
