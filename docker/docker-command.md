@@ -152,4 +152,6 @@ docker logs [container-id]
 
 ```
 docker network create [network name]
+docker network ls
+docker network rm [network name]
 ```
