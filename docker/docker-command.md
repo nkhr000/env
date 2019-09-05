@@ -149,7 +149,7 @@ docker logs [container-id]
 * Exited(0)以外で異常終了(100など)した場合に、ログを確認できる
 ```
 
-# network
+### network
 
 - コンテナ同士が通信するためのネットワークグループを作成する
 
@@ -157,4 +157,10 @@ docker logs [container-id]
 docker network create [network name]
 docker network ls
 docker network rm [network name]
+```
+
+### access to container
+
+```
+docker exec -it [container name] /bin/bash
 ```
