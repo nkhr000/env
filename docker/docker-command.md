@@ -55,6 +55,7 @@ docker rmi <image-name/image-id>:<tag-name>
 - docker run [option] <image-name>[:tag] [command] [args]
   - ディレクトリマウントオプション： `-v`
   - バックグラウンド実行オプション： `-d`
+  - ポートオプション: `-p`
 
 ```
 docker run -it ubuntu /bin/bash
@@ -64,6 +65,9 @@ docker run --rm [image-name]
 
 -- ディレクトリをマウント
 docker run -v /root/:/tmp/ [image-name]
+
+-- dockerコンテナのポートフォワーディング
+docker run -p [os port]:[docker port] [image-namge]
 
 -- データボリュームコンテナを利用
 docker run --volumes-from [volume-container-name] [image-name]
