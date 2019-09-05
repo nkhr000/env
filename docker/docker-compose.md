@@ -52,6 +52,15 @@ docker-compose up
 docker-compose run [container name in yml file]
 ```
 
+### 停止/削除
+
+```
+cd [dir-to-docker-compose-yml]
+
+docker-compose stop
+docker-compose rm
+```
+
 # log
 
 ```
