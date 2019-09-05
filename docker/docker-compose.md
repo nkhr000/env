@@ -29,7 +29,12 @@ services:
 
 ```
 cd [dir-to-docker-compose-yml]
+
+-- ymlファイル全体を実行する場合
 docker-compose up
+
+-- 特定のコンテナを実行する場合
+docker-compose run [container name in yml file]
 ```
 
 # log
