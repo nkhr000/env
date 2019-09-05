@@ -44,7 +44,8 @@ VOLUME [dir]
 WORKDIR [dir]
 
 # build時（このDockerfileで作成したimageからbuildを実行する場合）に実行するコマンド
-# 1つ目のDockerfileでimage-Aを作り、2つ目のDockerfileでimage-Aからimage-Bを作成する場合に、image-AのDockerfileのONBUILD命令が実行される
+# 1つ目のDockerfileでimage-Aを作り、2つ目のDockerfileでimage-Aからimage-Bを作成する場合に、
+# image-AのDockerfileのONBUILD命令が実行される
 ONBUILD [命令]
 ```
 
