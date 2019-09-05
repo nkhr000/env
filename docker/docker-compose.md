@@ -35,6 +35,22 @@ services:
     # dockerでport指定
     expose:
       - 80
+      
+    # volum containerの指定
+    volumes_from:
+      - volume-container-test
+  
+  volume-container-test:
+    image: busybox
+    # docker runの-vに相当、ボリュームコンテナ生成
+    volumes:
+      - [volume-name]:[path-to-container]
+
+# データボリュームの作成
+volumes:
+　 # 作成するデータボリューム名を記載
+  volume-test:
+    
 ```
 
 #### 起動
