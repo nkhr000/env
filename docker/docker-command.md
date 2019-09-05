@@ -145,3 +145,11 @@ docker run --volumes-from [volume-container-name] -v [host-os-dir]:/backup [imag
 docker logs [container-id]
 * Exited(0)以外で異常終了(100など)した場合に、ログを確認できる
 ```
+
+# network
+
+- コンテナ同士が通信するためのネットワークグループを作成する
+
+```
+docker network create [network name]
+```
