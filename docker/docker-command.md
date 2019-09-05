@@ -53,6 +53,8 @@ docker rmi <image-name/image-id>:<tag-name>
 ### create container
 
 - docker run [option] <image-name>[:tag] [command] [args]
+  - ディレクトリマウントオプション： `-v`
+  - バックグラウンド実行オプション： `-d`
 
 ```
 docker run -it ubuntu /bin/bash
