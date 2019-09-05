@@ -15,7 +15,7 @@ version: "2"
 services:
   # container name
   ub-container:
-    image: ubuntu:latest
+    image: [image-name]:[tag]
     
     # 入出力の利用
     tty: true
@@ -23,9 +23,24 @@ services:
     
     # 起動時のコマンド指定
     command: /bin/bash
+    
+    # ローカルファイルをコンテナにマウント [local file]:[container file path]
+    volumes:
+      - ./test.txt:/tmp/test.txt
+    
+    # ポートフォワーディング
+    ports:
+      - 80:80
+    
+    # dockerでport指定
+    expose:
+      - 80
 ```
 
 #### 起動
+
+- docker-compose up [option]
+- docker-compose run [option] [container-name]
 
 ```
 cd [dir-to-docker-compose-yml]
