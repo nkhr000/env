@@ -60,10 +60,13 @@ docker rmi <image-name/image-id>:<tag-name>
 docker run -it ubuntu /bin/bash
 
 -- コンテナ終了時に自動削除
-docker run --rm -it ubuntu /bin/bash
+docker run --rm [image-name]
 
 -- ディレクトリをマウント
-docker run -v /root/:/tmp/ -it ubuntu /bin/bash
+docker run -v /root/:/tmp/ [image-name]
+
+-- データボリュームコンテナを利用
+docker run --volumes-from [volume-container-name] [image-name]
 ```
 
 ### start/attach
