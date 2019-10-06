@@ -65,7 +65,7 @@ max-complexity = 20
 select = B,C,E,F,W,T4
 ```
 
-#### run package
+#### インストールパッケージの実行
 
 - プロジェクト内でパッケージを実行する場合は`run`コマンドを利用する
 
@@ -73,11 +73,19 @@ select = B,C,E,F,W,T4
 $ pipenv run flake8
 ```
 
-#### activate virtualenv
+#### 仮想環境のアクティベート
 
 -- `pip freeze`で確認すると仮想環境でインストールしたパッケージのみが表示される。
 
 ```
 $ pipenv shell
 ```
+
+#### 仮想環境の削除
+
+```
+$ pipenv -rm
+```
+
+
 
