@@ -14,6 +14,12 @@ $ brew install pipenv
 $ pip install --user pipenv
 ```
 
+### setting
+
+```
+$ echo "export LANG=ja_JP.UTF-8" >> ~/.bash_profile
+```
+
 ### package management by pipenv
   
 - pipenvでパッケージをインストールするとディレクトリ配下に`Pipfile`が生成される。　
@@ -24,6 +30,7 @@ $ pip install --user pipenv
 
 - pipenv install --python [version:3.7] [lib-name]
  - `python`でバージョンを指定するとpyenvでの環境管理と同じように利用するpythonバージョンで仮想環境が構築される
+ - 仮想環境をアクティベートするには `pyenv shell`を実行する
 
 ```
 $ pipenv install flake8 --dev
