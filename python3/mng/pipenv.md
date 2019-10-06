@@ -75,6 +75,8 @@ $ pipenv run flake8
 
 #### activate virtualenv
 
+-- `pip freeze`で確認すると仮想環境でインストールしたパッケージのみが表示される。
+
 ```
 $ pipenv shell
 ```
