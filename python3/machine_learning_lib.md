@@ -63,6 +63,7 @@ $ pip install gensim
 #### mecab
 
 ```
+$ sudo xcodebuild -license accept
 $ brew install mecab mecab-ipadic
 ```
 
