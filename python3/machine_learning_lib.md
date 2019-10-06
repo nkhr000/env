@@ -60,4 +60,9 @@ $ pip install pandas
 $ pip install gensim
 ```
 
+#### mecab
+
+```
+$ brew install mecab mecab-ipadic
+```
 
