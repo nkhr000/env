@@ -53,3 +53,11 @@ $ vim <利用するpythonのディレクトリ>/lib/python3.6/site-packages/matp
 ```
 $ pip install pandas
 ```
+
+#### Gensim
+
+```
+$ pip install gensim
+```
+
+
