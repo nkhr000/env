@@ -3,14 +3,15 @@ dev, prodなどの環境ごとに分けて適用することができる。
 
 ### install 
 
-- by homebrew 
+- homebrew 
 ```
 $ brew install pipenv
 ```
- 
-- by pipx 
+
+-- pip
+
 ```
-$ pipx install pyenv
+$ pip install --user pipenv
 ```
 
 ### package management by pipenv
@@ -20,6 +21,9 @@ $ pipx install pyenv
 - 実際のパッケージは`~/.local/`ディレクトリ配下で管理される
  
 #### install  
+
+- pipenv install --python [version:3.7] [lib-name]
+ - `python`でバージョンを指定するとpyenvでの環境管理と同じように利用するpythonバージョンで仮想環境が構築される
 
 ```
 $ pipenv install flake8 --dev
