@@ -30,6 +30,7 @@ $ echo "export LANG=ja_JP.UTF-8" >> ~/.bash_profile
 
 - pipenv install --python [version:3.7] [lib-name]
  - `python`でバージョンを指定するとpyenvでの環境管理と同じように利用するpythonバージョンで仮想環境が構築される
+- 先に`Pipfile`を作成し、`pipenv install`コマンドを実行すると`Pipfile`に記載されたパッケージや設定したpythonバージョンの仮想環境が構築される
 
 ```
 $ pipenv install flake8 --dev
