@@ -86,7 +86,7 @@ $ pipenv shell
 - 仮想環境を悪ディベートしている場合は、`exit`で抜けてから実行する
 
 ```
-$ pipenv -rm
+$ pipenv --rm
 ```
 
 
