@@ -45,11 +45,11 @@ $ code .
 ```
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Python: Debug Console",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "none"
         }
     ]
  ```
