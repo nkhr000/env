@@ -41,3 +41,18 @@ $ code .
   - `Python: Select Linter`を選択
   - `pylint`を選択
   - `settings.json`ファイルが.vscodeフォルダ配下に作成される
+- デバック `lounch.json`にpythonの設定を追加
+```
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+ ```
+ 
+
+
