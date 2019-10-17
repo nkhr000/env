@@ -49,7 +49,7 @@ $ code .
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "none"
+            "console": "integratedTerminal"
         }
     ]
  ```
