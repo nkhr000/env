@@ -4,6 +4,7 @@ JupyterLabはpython以外でも利用できる。
 
 ```
 pipenv install jupyterlab
+pipenv shell
 ```
 
 #### pip install
