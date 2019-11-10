@@ -11,7 +11,14 @@ $ ipython
 $ pip install jupyter
 $ jupyter notebook
 ```
-  
+
+#### Jupyter lab
+
+```
+$ pip install jupyterlab
+$ jupyter lab
+```
+
 #### numpy
 
 ```
