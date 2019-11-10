@@ -8,7 +8,7 @@ dev, prodなどの環境ごとに分けて適用することができる。
 $ brew install pipenv
 ```
 
--- pip
+- pip
 
 ```
 $ pip install --user pipenv
