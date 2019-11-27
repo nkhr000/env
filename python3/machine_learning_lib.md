@@ -56,6 +56,7 @@ $ vim <利用するpythonのディレクトリ>/lib/python3.6/site-packages/matp
 ```
 
 #### pandas
+- データ加工のためのライブラリ
 
 ```
 $ pip install pandas
