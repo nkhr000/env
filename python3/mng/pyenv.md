@@ -1,7 +1,7 @@
 - install pyenv  
 `brew install pyenv`
 
-- add path to config file (.bash_profile for bash shell)
+- add path to config file (.bash_profile or .bashrc)
 
 ```
 export PYENV_ROOT="$HOME/.pyenv"
