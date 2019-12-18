@@ -2,12 +2,7 @@
 `brew install pyenv`
 
 - add path to config file (.bash_profile or .bashrc)
-
-```
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-```
+-- メッセージに従ってパスを追加
 
 - confirm available versions  
 `pyenv install -l`
