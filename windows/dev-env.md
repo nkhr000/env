@@ -15,6 +15,10 @@ Windowsディスクトップ開発設定
 
 ## Python
 
+#### PipEnv
+
+#### Pyenv
+
 ## Go
 
 ## Node.js
