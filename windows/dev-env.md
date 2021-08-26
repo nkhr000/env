@@ -3,25 +3,35 @@ Windowsディスクトップ開発設定
 
 参考URL：https://docs.microsoft.com/ja-jp/windows/dev-environment/
 
-### Windows OS設定
+# Windows OS設定
 
-### Toolインストール設定
+# Toolインストール設定
 
-#### Visual Stadio Code
+## Visual Stadio Code
 
-#### Git
+## Git
 
-#### Docker
+## Docker
 
-#### Python
+## Python
 
-#### Go
+## Go
 
-#### Node.js
+## Node.js
 
-#### Windows Terminal
+## Rust
 
-#### Slack
+## WSL 
+https://docs.microsoft.com/ja-jp/windows/wsl/about
 
-#### draw.io
+### Kali Linux
+
+### Ubuntu
+
+
+## Windows Terminal
+
+## Slack
+
+## draw.io
 
