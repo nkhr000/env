@@ -7,4 +7,21 @@ Windowsディスクトップ開発設定
 
 ### Toolインストール設定
 
+#### Visual Stadio Code
+
+#### Git
+
+#### Docker
+
+#### Python
+
+#### Go
+
+#### Node.js
+
+#### Windows Terminal
+
+#### Slack
+
+#### draw.io
 
