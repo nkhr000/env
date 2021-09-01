@@ -9,11 +9,22 @@ Windowsディスクトップ開発設定
 
 ## Visual Stadio Code
 
+[ダウンロードサイト](https://code.visualstudio.com/)から取得
+
+### 拡張機能のインストール
+
+- Python (Microsoft)
+- 
+
 ## Git
+
+Gitの[ダウンロードサイト](https://git-scm.com/download/win)からダウンロード
 
 ## Docker
 
 ## Python
+
+- ローカル環境にインストールする場合：「Microsoft Store」> 検索ボックスでPythonを検索 > インストール
 
 #### PipEnv
 
