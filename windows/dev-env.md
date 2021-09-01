@@ -5,6 +5,15 @@ Windowsディスクトップ開発設定
 
 # Windows OS設定
 
+## 環境変数の設定
+
+- VIM_HOME=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\<Version of VIM>
+- PIPENV_VENV_IN_PROJECT=true
+  - pipenvの仮想環境に使用するフォルダの作成先を実行プロジェクトとする設定
+- JAVA_HOME=C:\Program Files\AdoptOpenJDK\<Version of JDK>
+- PATH
+
+
 # Toolインストール設定
 
 ## Visual Stadio Code
@@ -61,6 +70,8 @@ https://docs.microsoft.com/ja-jp/windows/wsl/about
 ## Windows Terminal
 
 ## Slack
+
+## VIM for Windows
 
 ## draw.io
 
