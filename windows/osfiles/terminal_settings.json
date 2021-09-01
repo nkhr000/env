@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  
+  "defaultProfile": "{Input the default profile ID}",  
+  "theme": "dark",
+  
+  // If enabled, formatted data is also copied to your clipboard
+  "copyFormatting": false,
+    
+  // col and row
+  "initialCols": 145,
+  "initialRows": 40,
+  
+  "Profiles": 
+  {
+    "default":
+    {
+      // Put settings here that you want to apply to all profiles.
+    },
+    "list":
+    [
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{Input GUID}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{Input GUID}",
+                "name": "CmdPrompt",
+                // envフォルダ配下のenv.batを起動時に実行
+                "commandline": "cmd.exe /k %USERPROFILE%\\env\\env.bat",
+                "hidden": false
+            },
+            {
+                "guid": "{Input GUID}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{Input GUID}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme" : "Raspberry",
+                "cursorColor" : "#FFFFFF",
+                "fontFace" : "Cascadia Code",
+                "padding" : "5, 5, 5, 5",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Ubuntu"
+            }
+    ]
+  },
+  
+  "schemes": [
+            {
+                "name" : "Raspberry",
+                "background" : "#3C0315",
+                "black" : "#282A2E",
+                "blue" : "#0170C5",
+                "brightBlack" : "#676E7A",
+                "brightBlue" : "#80c8ff",
+                "brightCyan" : "#8ABEB7",
+                "brightGreen" : "#B5D680",
+                "brightPurple" : "#AC79BB",
+                "brightRed" : "#BD6D85",
+                "brightWhite" : "#FFFFFD",
+                "brightYellow" : "#FFFD76",
+                "cyan" : "#3F8D83",
+                "foreground" : "#FFFFFD",
+                "green" : "#76AB23",
+                "purple" : "#7D498F",
+                "red" : "#BD0940",
+                "white" : "#FFFFFD",
+                "yellow" : "#E0DE48"
+            }
+  ]
+}
