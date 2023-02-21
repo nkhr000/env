@@ -8,6 +8,17 @@ $ git config --global user.name "User Name"
 $ git config --global user.email "user@email.com"
 ```
 
+Keep my email address privateにしている場合、以下のメールアドレス形式でないとpushを受け付けてくれない
+`{ID}+{username}@users.noreply.github.com`
+
+Emailの再設定と、commitのメールアドレス変更を行う
+
+``
+$ git config --global user.email {ID}+{username}@users.noreply.github.com
+$ git commit --amend --reset-author
+``
+
+
 ### gitリポジトリの初期化
 
 ```
