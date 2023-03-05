@@ -34,6 +34,7 @@ brew uninstall <package name>
 
 ```
 brew cleanup
+brew cask cleanup --outdated
 ```
 
 #### homebrewの問題確認
