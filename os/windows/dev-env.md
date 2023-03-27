@@ -13,8 +13,11 @@ Windowsディスクトップ開発設定
 - JAVA_HOME=C:\Program Files\AdoptOpenJDK\<Version of JDK>
 - PATH
 
-
 # Toolインストール設定
+
+## Winget
+
+
 
 ## Visual Stadio Code
 
