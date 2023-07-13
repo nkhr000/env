@@ -19,3 +19,17 @@ $ cat ~/.gitconfig
 環境変数に設定
 NODE_EXTRA_CA_CERTS=/caroot/root.crt
 ```
+
+### python(pip)の場合
+
+```
+$ pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --upgrade certifi
+$ python
+>>> import certifi
+>>> certifi.where()
+
+環境変数設定
+CERT_PATH=path/to/certifi.where
+SSL_CERT_FILE=%CERT_PATH%
+REQUESTS_CA_BUNDLE=%CERT_PATH%
+```
