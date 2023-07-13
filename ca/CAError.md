@@ -1,0 +1,21 @@
+CAの証明書エラーになっている場合の対処方法  
+Proxyサーバなどでデータを解凍して再度Proxyサーバで暗号化している場合などに発生
+
+### Root証明書のダウンロード
+
+BASE64でRoot証明書を所定のフォルダにダウンロード "/caroot/root.crt"
+
+
+### gitの場合
+
+```
+$ git config --global http.sslCAInfo /caroot/root.crt
+$ cat ~/.gitconfig
+```
+
+### npmの場合
+
+```
+環境変数に設定
+NODE_EXTRA_CA_CERTS=/caroot/root.crt
+```
